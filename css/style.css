@@ -26,6 +26,7 @@
 }
 .wood h2 {
   font-family: "KyivType Sans";
+  width: 622px;
   font-style: normal;
   font-weight: 500;
   font-size: 90px;
@@ -34,6 +35,7 @@
   color: #F5F5F5;
 }
 .wood p {
+  width: 333px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
