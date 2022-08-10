@@ -1,3 +1,9 @@
+.body {
+width: 1440px;
+background-color: #222021;;
+
+
+
 .header_wraper{
 display: flex;
 flex: row;
@@ -16,6 +22,11 @@ color: #F5F5F5;}
 padding-right: 100px;}}
 
 .wood {
+background-color: #1E0C06;
+border-radius: 43px 0px 0px 43px;
+width: 1245px;
+height: 714px;
+margin-left: 200px;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -55,4 +66,7 @@ border: none;}
 display: block;
 width: 205px;
 height: 205px;
+box-sizing: border-box;
 border-radius: 42px;}}
+
+}

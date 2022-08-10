@@ -1,13 +1,17 @@
-.header_wraper {
+.body {
+  width: 1440px;
+  background-color: #222021;
+}
+.body .header_wraper {
   display: flex;
   flex: row;
   align-items: center;
   justify-content: space-between;
 }
-.header_wraper .logo_header {
+.body .header_wraper .logo_header {
   padding: 50px 400px 50px 100px;
 }
-.header_wraper h3 {
+.body .header_wraper h3 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -15,16 +19,20 @@
   line-height: 24px;
   color: #F5F5F5;
 }
-.header_wraper .header_h3 {
+.body .header_wraper .header_h3 {
   padding-right: 100px;
 }
-
-.wood {
+.body .wood {
+  background-color: #1E0C06;
+  border-radius: 43px 0px 0px 43px;
+  width: 1245px;
+  height: 714px;
+  margin-left: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.wood h2 {
+.body .wood h2 {
   font-family: "KyivType Sans";
   width: 622px;
   font-style: normal;
@@ -34,7 +42,7 @@
   text-transform: uppercase;
   color: #F5F5F5;
 }
-.wood p {
+.body .wood p {
   width: 333px;
   font-family: "Inter";
   font-style: normal;
@@ -43,7 +51,7 @@
   line-height: 39px;
   color: #FFDBBB;
 }
-.wood .header_btn {
+.body .wood .header_btn {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -58,9 +66,10 @@
   border-radius: 42px;
   border: none;
 }
-.wood .header_img {
+.body .wood .header_img {
   display: block;
   width: 205px;
   height: 205px;
+  box-sizing: border-box;
   border-radius: 42px;
 }/*# sourceMappingURL=style.css.map */
