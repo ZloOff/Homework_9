@@ -3,9 +3,12 @@ width: 1440px;
 background-color: #222021;;
 
 
-
+.header_container {
+background-image: url(/img/Food.svg);;
+border-radius: 3px 62px 62px 0px;
+width: 908px;
+height: 1080px;
 .header_wraper{
-background-image: url(/img/Food.svg);
 display: flex;
 flex: row;
 align-items: center;
@@ -70,4 +73,4 @@ height: 205px;
 box-sizing: border-box;
 border-radius: 42px;}}
 
-}
+}}

@@ -2,17 +2,22 @@
   width: 1440px;
   background-color: #222021;
 }
-.body .header_wraper {
+.body .header_container {
   background-image: url(/img/Food.svg);
+  border-radius: 3px 62px 62px 0px;
+  width: 908px;
+  height: 1080px;
+}
+.body .header_container .header_wraper {
   display: flex;
   flex: row;
   align-items: center;
   justify-content: space-between;
 }
-.body .header_wraper .logo_header {
+.body .header_container .header_wraper .logo_header {
   padding: 50px 400px 50px 100px;
 }
-.body .header_wraper h3 {
+.body .header_container .header_wraper h3 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -20,10 +25,10 @@
   line-height: 24px;
   color: #F5F5F5;
 }
-.body .header_wraper .header_h3 {
+.body .header_container .header_wraper .header_h3 {
   padding-right: 100px;
 }
-.body .wood {
+.body .header_container .wood {
   background-color: #1E0C06;
   border-radius: 43px 0px 0px 43px;
   width: 1245px;
@@ -33,7 +38,7 @@
   justify-content: space-around;
   align-items: center;
 }
-.body .wood h2 {
+.body .header_container .wood h2 {
   font-family: "KyivType Sans";
   width: 622px;
   font-style: normal;
@@ -43,7 +48,7 @@
   text-transform: uppercase;
   color: #F5F5F5;
 }
-.body .wood p {
+.body .header_container .wood p {
   width: 333px;
   font-family: "Inter";
   font-style: normal;
@@ -52,7 +57,7 @@
   line-height: 39px;
   color: #FFDBBB;
 }
-.body .wood .header_btn {
+.body .header_container .wood .header_btn {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -67,7 +72,7 @@
   border-radius: 42px;
   border: none;
 }
-.body .wood .header_img {
+.body .header_container .wood .header_img {
   display: block;
   width: 205px;
   height: 205px;
