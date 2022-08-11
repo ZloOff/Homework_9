@@ -50,8 +50,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 39px;
-color: #FFDBBB;
-}
+color: #FFDBBB;}
 .header_btn {
 font-family: 'Inter';
 font-style: normal;
@@ -65,12 +64,11 @@ margin-top: 58px;
 background: #728BAD;
 border-radius: 42px;
 border: none;
-
 cursor: pointer;
-    letter-spacing: 1px;
-    border-radius: 15px;
-    outline: none;
-    transition: 0.5s;
+letter-spacing: 1px;
+border-radius: 15px;
+outline: none;
+transition: 0.5s;
 &:hover {
 transform: translateY(-5px);
 box-shadow: 0 5px 0 rgb(59, 58, 53);
@@ -78,15 +76,32 @@ background-color: #4011eb;
 color: #ff6117;}
 &:active {
 transform: translateY(-2px);
-box-shadow: 0 3px 0 rgb(250, 8, 8);}
-
-
-}
+box-shadow: 0 3px 0 rgb(250, 8, 8);}}
 .header_img {
 display: block;
 width: 205px;
 height: 205px;
 box-sizing: border-box;
-border-radius: 42px;}}
+border-radius: 42px;}}}
 
-}}
+.worck_with {
+display: flex;
+justify-content: center;
+gap: 240px;
+h3 {
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #F5F5F5;}
+p {
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+color: #F5F5F5;}
+
+
+}
+
+
+}
+

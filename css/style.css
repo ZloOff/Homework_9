@@ -92,4 +92,21 @@
   height: 205px;
   box-sizing: border-box;
   border-radius: 42px;
+}
+.body .worck_with {
+  display: flex;
+  justify-content: center;
+  gap: 240px;
+}
+.body .worck_with h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F5F5F5;
+}
+.body .worck_with p {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F5F5F5;
 }/*# sourceMappingURL=style.css.map */
