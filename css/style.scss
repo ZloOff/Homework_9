@@ -1,29 +1,29 @@
-.body {
-width: 1440px;
+.container {
+max-width: 1440px;
 background-color: #222021;}
 
 @media (min-width: 0px) and (max-width: 900px) {
-
 .header_a {
 display: none;}
 .hamburger {
 display: block !important;}}
 
-
-
 .backgraund {
+padding-top: 218px;
+padding-bottom: 148px;
 background-image: url(/img/Food.svg);
 background-repeat: no-repeat;
 border-radius: 3px 62px 62px 0px;}
 
 .header_wraper{
+padding-top: 50px;
+width: 100%;
+position: absolute;
 display: flex;
 flex: row;
 align-items: center;
 justify-content: space-around;
 
-.logo_header {
-padding: 50px 400px 50px 100px;}
 a {
 padding-left: 60px;
 text-decoration: none;
@@ -38,15 +38,14 @@ margin-right: 100px;}}
 .header_h3 {
 padding-right: 100px;}
 .hamburger {
-display: none;
-}}
+display: none;}}
 
 
 
 .wood {
 background-color: #1E0C06;
 border-radius: 43px 0px 0px 43px;
-width: 1245px;
+max-width: 1245px;
 height: 714px;
 margin-left: 200px;
 display: flex;
@@ -97,22 +96,22 @@ transform: translateY(-2px);
 box-shadow: 0 3px 0 rgb(250, 8, 8);}}
 .wood_after {
 border-right: 1px solid #F5F5F5;;
-margin-left: 50px;}
+margin-left: 20px;}
 
 .pictures {
+margin-left: 20px;
 display: flex;
 flex-wrap: wrap;
-gap: 40px;
+gap: 20px;
 picture:first-child {
 padding-top: 40px;
-margin-left: 290px;
+margin-left: 230px;
 flex-basis: 100%;}
-picture:last-child {
-margin-top: 150px;
-margin-right: 20px;
-padding-bottom: 40px;}
 picture:nth-child(2) {
-margin-left: 40px;} 
+margin-left: 10px;} 
+picture:last-child {
+margin-top: 100px;
+}
 
 img {
 width: 100%;
@@ -130,7 +129,6 @@ font-weight: 500;
 font-size: 90px;
 line-height: 139.9%;
 text-transform: uppercase;
-margin-top: 266px;
 margin-bottom: 125px;
 margin-left: 243px;}
 
