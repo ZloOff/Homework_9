@@ -3,21 +3,11 @@ width: 1440px;
 background-color: #222021;}
 
 @media (min-width: 0px) and (max-width: 900px) {
+
 .header_a {
 display: none;}
 .hamburger {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    row-gap: 5px;
-    width: 50px;
-    align-content: center;
-    height: fit-content;
-    margin: 20px auto;
-    color: #F5F5F5;
-}
-}
+display: block !important;}}
 
 
 
@@ -46,7 +36,10 @@ color: #F5F5F5;
 &:last-child {
 margin-right: 100px;}}
 .header_h3 {
-padding-right: 100px;}}
+padding-right: 100px;}
+.hamburger {
+display: none;
+}}
 
 
 
