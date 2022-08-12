@@ -4,6 +4,11 @@
   background-color: #222021;
 }
 
+@media (min-width: 0px) and (max-width: 900px) {
+  .header_a {
+    display: none;
+  }
+}
 .backgraund {
   background-image: url(/img/Food.svg);
   background-repeat: no-repeat;

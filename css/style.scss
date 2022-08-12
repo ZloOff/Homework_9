@@ -1,6 +1,16 @@
 .body {
 width: 1440px;
 background-color: #222021;}
+
+@media (min-width: 0px) and (max-width: 900px) {
+.header_a {
+display: none;}
+
+
+}
+
+
+
 .backgraund {
 background-image: url(/img/Food.svg);
 background-repeat: no-repeat;
@@ -27,6 +37,8 @@ color: #F5F5F5;
 margin-right: 100px;}}
 .header_h3 {
 padding-right: 100px;}}
+
+
 
 .wood {
 background-color: #1E0C06;
