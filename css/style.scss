@@ -2,7 +2,7 @@
 max-width: 1440px;
 background-color: #222021;}
 
-@media (min-width: 0px) and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 .header_a {
 display: none;}
 .hamburger {
@@ -23,7 +23,6 @@ display: flex;
 flex: row;
 align-items: center;
 justify-content: space-around;
-
 a {
 padding-left: 60px;
 text-decoration: none;
@@ -41,7 +40,6 @@ padding-right: 100px;}
 display: none;}}
 
 
-
 .wood {
 background-color: #1E0C06;
 border-radius: 43px 0px 0px 43px;
@@ -53,7 +51,7 @@ justify-content: space-around;
 align-items: center;
 h2 {
 font-family: 'KyivType Sans';
-width: 622px;
+max-width: 622px;
 font-style: normal;
 font-weight: 500;
 font-size: 90px;
@@ -61,7 +59,7 @@ line-height: 115.4%;
 text-transform: uppercase;
 color: #F5F5F5;}
 p {
-width: 333px;
+max-width: 333px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -119,6 +117,14 @@ max-width: 205px;
 max-height: 205px;
 display: flex;
 border-radius: 42px;}}}
+
+
+@media screen and (max-width: 768px) {
+    .wood {
+        padding-top: 300px;
+ flex-direction: column;}  
+}
+
 
 
 .worck_with {

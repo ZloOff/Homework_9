@@ -4,7 +4,7 @@
   background-color: #222021;
 }
 
-@media (min-width: 0px) and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .header_a {
     display: none;
   }
@@ -61,7 +61,7 @@
 }
 .wood h2 {
   font-family: "KyivType Sans";
-  width: 622px;
+  max-width: 622px;
   font-style: normal;
   font-weight: 500;
   font-size: 90px;
@@ -70,7 +70,7 @@
   color: #F5F5F5;
 }
 .wood p {
-  width: 333px;
+  max-width: 333px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -136,6 +136,12 @@
   border-radius: 42px;
 }
 
+@media screen and (max-width: 768px) {
+  .wood {
+    padding-top: 300px;
+    flex-direction: column;
+  }
+}
 .worck_with {
   color: #F5F5F5;
   font-family: "KyivType Sans";
