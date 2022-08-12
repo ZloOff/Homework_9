@@ -8,6 +8,20 @@
   .header_a {
     display: none;
   }
+  .hamburger {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 50px;
+    align-content: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    color: #F5F5F5;
+  }
 }
 .backgraund {
   background-image: url(/img/Food.svg);
