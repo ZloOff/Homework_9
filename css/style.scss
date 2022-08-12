@@ -1,27 +1,27 @@
 .body {
 width: 1440px;
-background-color: #222021;;
+background-color: #222021;}
 
 
-.header_container {
-background-image: url(/img/Food.svg);;
-border-radius: 3px 62px 62px 0px;
-width: 908px;
-height: 1080px;
 .header_wraper{
 display: flex;
 flex: row;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
+
 .logo_header {
 padding: 50px 400px 50px 100px;}
-h3 {
+a {
+padding-left: 60px;
+text-decoration: none;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 24px;
-color: #F5F5F5;}
+color: #F5F5F5;
+&:last-child {
+margin-right: 100px;}}
 .header_h3 {
 padding-right: 100px;}}
 
@@ -51,7 +51,7 @@ font-weight: 400;
 font-size: 30px;
 line-height: 39px;
 color: #FFDBBB;}
-.header_btn {
+.btn1 {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -77,12 +77,29 @@ color: #ff6117;}
 &:active {
 transform: translateY(-2px);
 box-shadow: 0 3px 0 rgb(250, 8, 8);}}
-.header_img {
-display: block;
-width: 205px;
-height: 205px;
-box-sizing: border-box;
-border-radius: 42px;}}}
+
+.pictures {
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+min-width: 450px;
+
+
+img {
+width: 100%;
+max-width: 205px;
+max-height: 205px;
+display: flex;
+&:first-child {
+flex-basis: 100%;}
+border-radius: 42px;}
+
+
+}
+}
+
+
+
 
 .worck_with {
 display: flex;
@@ -99,9 +116,6 @@ font-size: 30px;
 line-height: 36px;
 color: #F5F5F5;}
 
-
 }
 
-
-}
 
