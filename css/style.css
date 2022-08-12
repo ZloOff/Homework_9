@@ -9,18 +9,7 @@
     display: none;
   }
   .hamburger {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    row-gap: 5px;
-    width: 50px;
-    align-content: center;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin: 20px auto;
-    color: #F5F5F5;
+    display: block !important;
   }
 }
 .backgraund {
@@ -53,6 +42,9 @@
 }
 .header_wraper .header_h3 {
   padding-right: 100px;
+}
+.header_wraper .hamburger {
+  display: none;
 }
 
 .wood {
