@@ -87,11 +87,27 @@
   transform: translateY(-2px);
   box-shadow: 0 3px 0 rgb(250, 8, 8);
 }
+.wood .wood_after {
+  border-right: 1px solid #F5F5F5;
+  margin-left: 50px;
+}
 .wood .pictures {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  min-width: 450px;
+}
+.wood .pictures picture:first-child {
+  padding-top: 40px;
+  margin-left: 290px;
+  flex-basis: 100%;
+}
+.wood .pictures picture:last-child {
+  margin-top: 150px;
+  margin-right: 20px;
+  padding-bottom: 40px;
+}
+.wood .pictures picture:nth-child(2) {
+  margin-left: 40px;
 }
 .wood .pictures img {
   width: 100%;
@@ -99,9 +115,6 @@
   max-height: 205px;
   display: flex;
   border-radius: 42px;
-}
-.wood .pictures img:first-child {
-  flex-basis: 100%;
 }
 
 .worck_with {

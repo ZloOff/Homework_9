@@ -77,21 +77,30 @@ color: #ff6117;}
 &:active {
 transform: translateY(-2px);
 box-shadow: 0 3px 0 rgb(250, 8, 8);}}
+.wood_after {
+border-right: 1px solid #F5F5F5;;
+margin-left: 50px;}
 
 .pictures {
 display: flex;
 flex-wrap: wrap;
 gap: 40px;
-min-width: 450px;
-
+picture:first-child {
+padding-top: 40px;
+margin-left: 290px;
+flex-basis: 100%;}
+picture:last-child {
+margin-top: 150px;
+margin-right: 20px;
+padding-bottom: 40px;}
+picture:nth-child(2) {
+margin-left: 40px;} 
 
 img {
 width: 100%;
 max-width: 205px;
 max-height: 205px;
 display: flex;
-&:first-child {
-flex-basis: 100%;}
 border-radius: 42px;}
 
 
