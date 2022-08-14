@@ -5,11 +5,20 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header_wraper {
+    justify-content: space-between !important;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .header_a {
     display: none;
   }
   .hamburger {
     display: block !important;
+  }
+  .backgraund {
+    background-image: url(../img/backraund_mobile.jpg);
+    background-size: contain;
   }
 }
 .backgraund {
