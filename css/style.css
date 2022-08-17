@@ -308,7 +308,7 @@ body {
 }
 
 .swiper_h2 {
-  padding: 260px 120px;
+  padding: 200px 100px;
   font-family: "KyivType Sans";
   font-style: normal;
   font-weight: 500;
@@ -349,4 +349,58 @@ body {
 }
 .Custom_bullet.swiper-pagination_bullet_active {
   background: #D5DCEE;
+}
+
+.working_us h2 {
+  font-family: "KyivType Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 132.9%;
+  text-transform: uppercase;
+  padding: 120px 100px;
+  color: #F5F5F5;
+}
+.working_us .stairs {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.working_us .stairs p {
+  width: 420px;
+  padding-bottom: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+  color: #F5F5F5;
+}
+.working_us .stairs img {
+  border-radius: 42px;
+}
+.working_us button {
+  background-color: #728BAD;
+  border-radius: 42px;
+  border: none;
+  width: 472px;
+  height: 58px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F5F5F5;
+  margin: 120px 500px 300px 450px;
+  transition: 0.5s;
+}
+.working_us button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 0 rgb(59, 58, 53);
+  background-color: #4011eb;
+  color: #ff6117;
+}
+.working_us button:active {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 0 rgb(250, 8, 8);
 }/*# sourceMappingURL=style.css.map */
