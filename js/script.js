@@ -5,6 +5,8 @@ var swiper = new Swiper(".mySwiper", {
     },
     pagination: {
       el: ".swiper-pagination",
+      BulletClass: "Custom_bullet",
+      clickable:true,
     },
-    BulletClass: "Custom bullet"
+    
   });
