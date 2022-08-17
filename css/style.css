@@ -471,4 +471,103 @@ body {
   max-height: 205px;
   margin-top: 539px;
   margin-left: 449px;
+}
+
+.questions_h2 {
+  font-family: "KyivType Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 132.9%;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  text-align: right;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.questions {
+  display: flex;
+}
+.questions .input {
+  width: 598px;
+  height: 77px;
+  border: 4px solid #728BAD;
+  border-radius: 42px;
+  background-color: #222021;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+  padding-left: 47px;
+  margin: 20px 20px;
+}
+.questions .input2 {
+  width: 598px;
+  height: 77px;
+  border: 4px solid #728BAD;
+  border-radius: 42px;
+  background-color: #222021;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+  padding-left: 47px;
+  margin: 20px 20px;
+}
+.questions .textarea {
+  padding-left: 47px;
+  margin: 20px 20px;
+  width: 598px;
+  height: 257px;
+  border: 4px solid #728BAD;
+  border-radius: 42px;
+  background-color: #222021;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+}
+.questions .btn2 {
+  background: #728BAD;
+  border-radius: 42px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F5F5F5;
+  width: 216px;
+  height: 58px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.questions .btn2:hover {
+  background-color: #4011eb;
+  color: #ff6117;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 0 rgb(236, 199, 9);
+  background-color: #4011eb;
+}
+.questions .btn2:hover:active {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 0 rgb(214, 8, 8);
+}
+.questions p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+  color: #F5F5F5;
+  margin-left: 60px;
+  margin-bottom: 116px;
+  width: 546px;
+  height: 126px;
 }/*# sourceMappingURL=style.css.map */
