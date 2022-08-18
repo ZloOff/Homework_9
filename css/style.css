@@ -570,4 +570,31 @@ body {
   margin-bottom: 116px;
   width: 546px;
   height: 126px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .castom {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+  color: #F5F5F5;
+}
+.footer .castom a {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+.footer .castom::before {
+  content: "✔";
+  background-image: url(../img/Location.svg);
+  width: 50px;
+  height: 50px;
+  background-size: 20px;
+  background-position: 150px;
+  background-repeat: no-repeat;
+  background-color: #F5F5F5;
 }/*# sourceMappingURL=style.css.map */
