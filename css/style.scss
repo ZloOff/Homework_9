@@ -529,17 +529,25 @@ color: #F5F5F5;
 margin-left: 60px;
 margin-bottom: 116px;
 width: 546px;
-height: 126px;}
-}
+height: 126px;}}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+.questions {
+align-items: center;
+flex-direction: column;
+img {display: none;}
+p {display: none;}
+padding-bottom: 100px;}}
 
 
 
 .footer {
+border-top: solid 2px #D5DCEE;
+padding-top: 70px;
 display: flex;
 justify-content: space-around;
-.castom {
+align-items: center;
+.castom1 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -549,97 +557,67 @@ justify-content: space-around;
 a {text-decoration: none; 
   color: #F5F5F5;}}
 
-
-.castom {
+.castom1 {
   &::before {
-  content: "✔
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ";
-  background-image: url(../img/Location.svg);
+  position: absolute;
+  content: "";
+  background-image: url(../img/ph_phone-call.svg);
   width: 50px;
   height: 50px;
-
-  background-size: 20px;
-  background-position: 150px;
+  left: 450px;
   background-repeat: no-repeat;
+  background-color: #222021;}}
 
-  
-  background-color:  #F5F5F5;
-}}
-}
+  .castom2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    color: #F5F5F5;
+  a {text-decoration: none; 
+    color: #F5F5F5;}}
+    .castom2 {
+      &::before {
+      position: absolute;
+      content: "";
+      background-image: url(../img/Location.svg);
+      width: 50px;
+      height: 50px;
+      left: 880px;
+      background-repeat: no-repeat;
+      background-color: #222021;}}}
 
+  .footer2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 139.4%;
+    color: #F5F5F5;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 60px;}
+
+    .footer3 {display: none;}
+      
+  @media screen and (max-width: 768px) {
+    .footer {
+    flex-direction: column;
+    img {padding-bottom: 40px;}}
+    .castom1 {padding-bottom: 10px;
+      &::before {display: none}}
+      .castom2 {padding-bottom: 10px;
+        &::before {display: none}}
+      .footer2 {
+        display: none;}
+  .footer3 {
+font-family: 'Saira';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 139.4%;
+color: #F5F5F5;
+display: block;
+text-align: center;}}
 
